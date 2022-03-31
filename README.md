@@ -8,7 +8,7 @@ Your task is to write a function solution(events), which returns true if the sys
 Example
 
 For
-
+```
 events = [
   ["John_0", "in"],
   ["Mary_0", "in"],
@@ -16,15 +16,16 @@ events = [
   ["Mary_0", "out"]
 ]
 the output should be solution(events) = true.
-
+```
 For
-
+```
 events = [
   ["John_0", "in"],
   ["John_0", "in"],
   ["John_0", "out"],
   ["John_0", "out"]
 ]
+```
 the output should be solution(events) = false.
 
 The same person cannot enter the shop twice without exiting.
